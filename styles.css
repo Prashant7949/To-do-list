@@ -100,3 +100,40 @@ input[type="submit"]:hover {
     color: red;
     transition: 0.3s ease-in-out;
 }
+
+@media(width<= 600px){
+    #container{
+        width:90vw;
+        height: 70vh;
+    }
+}
+
+
+@media(width <= 500px){
+
+    #container h1{
+        font-size: 1.8rem;
+    }
+
+    .Addyours{
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+
+    input[type="text"]{
+        width: 90%;
+        display: flex;
+        margin: auto;
+    }
+
+    input[type="submit"]{
+        display: flex;
+        padding: 0.5rem;
+        margin: auto;
+    }
+
+    .post-icon{
+        width: 90%;
+    }
+}
